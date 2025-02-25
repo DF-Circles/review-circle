@@ -151,9 +151,9 @@ nav:
   - Eligibility Proposals Review:
       - Overview: eligibility-proposals-review.md
       - Assigned tasks: assigned-tasks.md
-      - In Progress tasks: in-progress-tasks.md
-      - In Review tasks: in-review-tasks.md
-      - Done tasks: done.md
+      - In Progress tasks: proposal-in-progress-tasks.md
+      - In Review tasks: proposal-in-review-tasks.md
+      - Done: done.md
 
   - Contracts Review:
       - Overview: contracts-review.md
