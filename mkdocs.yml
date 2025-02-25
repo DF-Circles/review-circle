@@ -28,15 +28,18 @@ theme:
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
-    # - navigation.expand
+
+    # Render top-level navigation as tabs
+    - navigation.tabs
+    # Display sub-sections in the sidebar
+    - navigation.sections
     - navigation.footer
-    - navigation.indexes
-    # - navigation.instant
+    # - navigation.indexes
+    - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
     # - navigation.prune
-    - navigation.sections
-    - navigation.tabs
+    # - navigation.expand
     # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
@@ -143,3 +146,28 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - Structure and Governance: structure-and-governance.md
+
+  - Eligibility Proposals Review:
+      - Overview: eligibility-proposals-review.md
+      - Assigned tasks: assigned-tasks.md
+      - In Progress tasks: in-progress-tasks.md
+      - In Review tasks: in-review-tasks.md
+      - Done tasks: done.md
+
+  - Contracts Review:
+      - Overview: contracts-review.md
+      - Process Steps: process-steps.md
+      - Process Visualization: process-visualization.md
+      - Video Tutorial: video-tutorial.md
+
+  - Milestones Review:
+      - Overview: milestones-review.md
+      - To do tasks: to-do-tasks.md
+      - In Progress tasks: in-progress-tasks.md
+      - In Review tasks: in-review-tasks.md
+      - Done tasks: done-tasks.md
+
+  - Adding DF email alias on Gmail: adding-df-email-alias-on-gmail.md
+  - FAQ: faq.md
+
