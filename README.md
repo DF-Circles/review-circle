@@ -1,4 +1,4 @@
-# 🌟 DF Circles Documentation Project
+# 🌟 DF Review Circles Documentation Project
 
 Welcome to the DF Review Circle's Documentation repository! This project aims to create a unified, open-source documentation platform for the Review Circles within our organization. By using MkDocs, we’re building a centralized, collaborative, and structured resource that ensures consistency, simplifies onboarding, enhances knowledge retention, and clarifies roles across all Circles.
 
