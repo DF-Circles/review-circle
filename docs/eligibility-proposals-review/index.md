@@ -1,4 +1,4 @@
-# Eligibility Proposals Review
+# __📝 Eligibility Proposals Review__
 
 The eligibility review process is a process that involves reviewers assessing project proposals using predefined criteria, based on objective rules and parameters.
 This review is done to give proposers the opportunity to correct any mistakes or omissions found by reviewers and have their work reassessed before a final decision on its eligibility.

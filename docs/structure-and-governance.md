@@ -1,4 +1,4 @@
-# Structure and Governance
+# __🏛️ Structure and Governance__
 
 The Review Circle is a key body within the Deep Funding program, responsible for objectively assessing projects, conducting thorough eligibility reviews, and ensuring alignment with program objectives. Its members use predefined criteria to make informed decisions, focusing on fairness, objectivity, and transparency to safeguard the program's integrity and maximize grant value.
 

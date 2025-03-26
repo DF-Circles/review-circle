@@ -28,19 +28,18 @@ theme:
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
-
-    # Render top-level navigation as tabs
-    - navigation.tabs
-    # Display sub-sections in the sidebar
-    - navigation.sections
+    # - navigation.expand
     - navigation.footer
-    # - navigation.indexes
-    - navigation.instant
+    - navigation.indexes
+    # - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
     # - navigation.prune
+    # - navigation.sections
     # - navigation.expand
-    # - navigation.tabs.sticky
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -53,8 +52,8 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo # The primary color is used for the header, the sidebar, text links and several other components.
-      accent: indigo # The accent color is used to denote elements that can be interacted with, e.g. hovered links, buttons and scrollbars.
+      primary: deep purple # The primary color is used for the header, the sidebar, text links and several other components.
+      accent: deep purple # The accent color is used to denote elements that can be interacted with, e.g. hovered links, buttons and scrollbars.
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
@@ -145,29 +144,29 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
-  - Structure and Governance: structure-and-governance.md
+  - 🏠 Home: index.md
+  - 🏛️ Structure and Governance: structure-and-governance.md
 
-  - Eligibility Proposals Review:
-      - Overview: eligibility-proposals-review.md
-      - Assigned tasks: assigned-tasks.md
-      - In Progress tasks: proposal-in-progress-tasks.md
-      - In Review tasks: proposal-in-review-tasks.md
-      - Done: done.md
+  - 📝 Eligibility Proposals Review:
+      - eligibility-proposals-review/index.md
+      - 📌 Assigned tasks: eligibility-proposals-review/assigned-tasks.md
+      - 🔄 In Progress tasks: eligibility-proposals-review/proposal-in-progress-tasks.md
+      - 🔍 In Review tasks: eligibility-proposals-review/proposal-in-review-tasks.md
+      - ✅ Done: eligibility-proposals-review/done.md
 
-  - Contracts Review:
-      - Overview: contracts-review.md
-      - Process Steps: process-steps.md
-      - Process Visualization: process-visualization.md
-      - Video Tutorial: video-tutorial.md
+  - 📄 Contracts Review:
+      - contracts-review/index.md
+      - 📋 Process Steps: contracts-review/process-steps.md
+      - 🔄 Process Visualization: contracts-review/process-visualization.md
+      - 🎬 Video Tutorial: contracts-review/video-tutorial.md
 
-  - Milestones Review:
-      - Overview: milestones-review.md
-      - To do tasks: to-do-tasks.md
-      - In Progress tasks: in-progress-tasks.md
-      - In Review tasks: in-review-tasks.md
-      - Done tasks: done-tasks.md
+  - 🏁 Milestones Review:
+      - milestones-review/index.md
+      - 📋 To Do tasks: milestones-review/to-do-tasks.md
+      - 🔄 In Progress tasks: milestones-review/in-progress-tasks.md
+      - 🔍 In Review tasks: milestones-review/in-review-tasks.md
+      - ✅ Done tasks: milestones-review/done-tasks.md
 
-  - Adding DF email alias on Gmail: adding-df-email-alias-on-gmail.md
-  - FAQ: faq.md
+  - 📧 Adding DF email alias on Gmail: adding-df-email-alias-on-gmail.md
+  - ❓ FAQ: faq.md
 
